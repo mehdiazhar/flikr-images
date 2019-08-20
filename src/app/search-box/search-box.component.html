@@ -1,0 +1,13 @@
+<div class="row justify-content-md-center">
+    <div class="col-lg-6 col-md-12 col-12 ">
+        <div class="input-group mb-3">
+        
+        <input #box autofocus type="text" class="form-control"
+            aria-label="tags" aria-describedby="button-addon2">
+
+        <div class="input-group-append">
+            <button (click)="onSearch(box.value)" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+        </div>
+        </div>
+    </div>
+</div>
